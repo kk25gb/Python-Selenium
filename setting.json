@@ -1,0 +1,15 @@
+{
+    "python.pythonPath": "C:\\Users\\Jacob\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "files.trimTrailingWhitespace": true, 
+    "files.autoSave": "onFocusChange", 
+    "[python]":{  
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.renderIndentGuides": true,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4
+    }
+}
