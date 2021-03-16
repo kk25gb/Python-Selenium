@@ -14,7 +14,7 @@ ws = wb["Sheet1"]
 # 創建存放標題的串列
 title_list = []
 # 設定excel的起始index和檔名index
-txtFile_count = 1224
+txtFile_count = 1
 row_index = txtFile_count + 1
 
 for cell in ws['B']:
@@ -117,4 +117,4 @@ for k in range(rnum+1):
         print("invalid date:" + date_s)
         break
 
-# driver.close()
+driver.close()
