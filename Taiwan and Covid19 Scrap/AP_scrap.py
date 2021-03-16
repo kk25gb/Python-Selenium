@@ -14,7 +14,7 @@ for cell in ws['B']:
     title_list.append(cell.value[:41])
 
 # 設定excel的起始index和檔名index
-txtFile_count = 15
+txtFile_count = 1
 row_index = txtFile_count + 1
 
 driver = webdriver.Chrome()
@@ -103,4 +103,4 @@ for i in range(len(result)):
 
 
 
-# driver.close()
+driver.close()
